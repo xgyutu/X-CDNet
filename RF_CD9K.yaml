@@ -1,0 +1,15 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+# train: /content/yolov7/train_data_v5_format/images/train
+# val: /content/yolov7/train_data_v5_format/images/test
+train:  /root/autodl-tmp/fog_rain_bdd100k/images/train
+test:    /root/autodl-tmp/fog_rain_bdd100k/images/test
+val:   /root/autodl-tmp/fog_rain_bdd100k/images/val
+
+# number of classes
+# nc: 2
+nc: 3
+
+# class names
+names: [ 'crosswalk', 'guide_arrow', 'word']
+#names: [ 'crosswalk']

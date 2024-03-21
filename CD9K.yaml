@@ -1,0 +1,11 @@
+
+train:  /root/autodl-tmp/bdd100k/images/train
+test:    /root/autodl-tmp/bdd100k/images/test
+val:   /root/autodl-tmp/bdd100k/images/val
+nc: 3
+names: [ 'crosswalk', 'guide_arrow', 'word']
+
+# train:  /root/autodl-tmp/CDNet/images/train
+# val:   /root/autodl-tmp/CDNet/images/test
+# nc: 2
+# names: [ 'crosswalk', 'guideline' ]
